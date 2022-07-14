@@ -117,11 +117,17 @@ section {
 .slide_img3 {
   background-image: url(../img/220103_083058_257700p.jpg);
 }
+
 .slide_size {
   display: block;
   width: 100%;
   padding-top: 38.33%;
   background-size: cover;
+}
+
+.slide_size:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
 }
 .slide_controls {
   position: absolute;
@@ -243,6 +249,8 @@ figure {
 figure > a {
   display: block;
   width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 figcaption {
   margin: 15px 0 10px;
@@ -265,6 +273,7 @@ figure > a > div {
   justify-content: space-between;
   width: 100px;
   height: 100px;
+  box-sizing: border-box;
 }
 article {
   width: calc(100%-20px);
@@ -401,7 +410,11 @@ article {
   background-size: cover;
   background-position: center center;
 }
-
+.story div:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
 .more_btn {
   display: none;
 }
@@ -409,16 +422,8 @@ article {
   padding: 10px 0;
   display: flex;
 }
-.list_f {
-  margin-right: 10px;
-}
-
-.tap_wrap > ul {
-  padding: 10px 0;
-  display: flex;
-}
-.list_f {
-  margin-right: 10px;
+.tap_wrap li {
+  margin-right: 8px;
 }
 .lank {
   display: flex;

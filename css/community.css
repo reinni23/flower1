@@ -93,9 +93,6 @@ section {
 .tap_wrap a {
   color: #000;
 }
-.list_f {
-  margin-right: 10px;
-}
 .lank {
   display: flex;
   padding: 20px;
@@ -528,13 +525,6 @@ figure > a > div {
   display: block;
   position: relative;
   padding-bottom: 45.45%;
-}
-.megazine > ul > li > a > div {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
   background-size: cover;
 }
 .mega_img1 {
@@ -545,6 +535,10 @@ figure > a > div {
 }
 .mega_img3 {
   background-image: url(../img/211001_09365.jpg);
+}
+.mega_hover:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
 }
 /* ---------------------------------------------request------------------- */
 

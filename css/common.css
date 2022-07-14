@@ -232,6 +232,9 @@ footer {
   background-position: right center;
   white-space: nowrap;
 }
+.f_nav > ul > li :hover {
+  text-decoration: underline;
+}
 address span {
   font-size: 14px;
   color: #d9d9d9;
